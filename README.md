@@ -77,7 +77,7 @@ Store them in environment variables or use `.env` files (not included here).
 
 ## 📸 Demo
 
-![demo screenshot or animation here]
+![demo screenshot or animation here"https://youssef.bazzaoui.com/genai_project.html"]
 
 ---
 
