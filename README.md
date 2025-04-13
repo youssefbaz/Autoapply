@@ -81,11 +81,6 @@ Store them in environment variables or use `.env` files (not included here).
 
 ---
 
-## 📄 License
-
-MIT License. Feel free to use and modify.
-
----
 
 ## 🙌 Acknowledgments
 
