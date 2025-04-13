@@ -40,7 +40,7 @@ Autoapply/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Autoapply.git
+git clone https://github.com/youssefbaz/Autoapply.git
 cd Autoapply
 ```
 
@@ -77,10 +77,15 @@ Store them in environment variables or use `.env` files (not included here).
 
 ## 📸 Demo
 
-![demo video or animation here "https://youssef.bazzaoui.com/genai_project.html"]
+![demo screenshot or animation here]
 
 ---
 
+## 📄 License
+
+MIT License. Feel free to use and modify.
+
+---
 
 ## 🙌 Acknowledgments
 
@@ -88,3 +93,23 @@ Store them in environment variables or use `.env` files (not included here).
 - [LangChain](https://www.langchain.com/)
 - [OpenAI](https://openai.com/)
 - [Undetected Chromedriver](https://github.com/ultrafunkamsterdam/undetected-chromedriver)
+
+
+---
+
+## 🧠 Local LLM Models
+
+This project uses **local LLMs** via [Ollama](https://ollama.com/) and LangChain integration for both resume parsing and motivation letter generation.  
+Ensure you have the following models installed locally through Ollama:
+
+- `mistral` — used for resume parsing
+- `llama2` — used for motivation letter generation
+
+Install them with:
+
+```bash
+ollama run mistral
+ollama run llama2
+```
+
+Make sure Ollama is installed and running in the background before starting the app.
